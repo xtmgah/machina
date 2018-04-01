@@ -38,14 +38,14 @@ In case [doxygen](http://www.stack.nl/~dimitri/doxygen/) is available, extended 
 <a name="comp"></a>
 ### Compilation
 
-To compile SPRUCE, execute the following commands from the root of the repository:
+To compile MACHINA, execute the following commands from the root of the repository:
 
     $ mkdir build
     $ cd build
     $ cmake ..
     $ make
 
-In case CMake fails to detect LEMON, run the following command with adjusted paths:
+In case CMake fails to detect LEMON or Gurobi, run the following command with adjusted paths:
 
     $ cmake -DLIBLEMON_ROOT=~/lemon \
     -DGUROBI_INCLUDE_DIR=/usr/local/gurobi702/linux64/include \
